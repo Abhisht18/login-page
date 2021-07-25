@@ -1,0 +1,36 @@
+<%- include("header") -%>
+    <div class="he">
+        <h1>Shiksha</h1>
+    </div>
+    <div class="container">
+        <div class="boxx">
+            <div class="left">
+                <div class="heading">Shiksha</div>
+                <img src="student.png" alt="">
+            </div>
+            <div class="right">
+                <div class="login">
+                    <h1 class="head">Login</h1>
+                    <p>Don't have an account? <a href="/signup">sign up</a></p>
+                    <form action="/" method="POST">
+                        <div class="input first" >
+                            <label for="one">Email</label>
+                            <input type="email" id="one" required>
+                        </div>
+                        <div class="input">
+                            <label for="two">Password</label>
+                            <input type="password" id="two" required>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                    </form>
+                    <p>or</p>
+                    <div class="icons">
+                        <a href=""><img src="google.png" alt="" style="height: 24px;"></a>
+                        <a href=""><img src="fb.png" alt="" style="height: 24px;"></a>
+                        <a href=""><img src="twitter.png" alt="" style="height: 24px;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include("footer") -%>
